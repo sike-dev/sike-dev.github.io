@@ -1,7 +1,7 @@
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "./planet-01.png",
+    imgUrl: "planet-01.png",
     projectUrl: "https://github.com/Thal-e/thale-admin-app",
     title: "ThalE",
     description:
@@ -9,7 +9,7 @@ export const exploreWorlds = [
   },
   {
     id: "world-2",
-    imgUrl: "./planet-02.png",
+    imgUrl: "planet-02.png",
     projectUrl: "https://github.com/sike-dev/sikepay",
     title: "SikePay",
     description:
@@ -17,7 +17,7 @@ export const exploreWorlds = [
   },
   {
     id: "world-3",
-    imgUrl: "./planet-03.png",
+    imgUrl: "planet-03.png",
     projectUrl: "https://github.com/sike-dev/auto_caller",
     title: "Auto-Caller",
     description:
@@ -25,7 +25,7 @@ export const exploreWorlds = [
   },
   {
     id: "world-4",
-    imgUrl: "./planet-04.png",
+    imgUrl: "planet-04.png",
     projectUrl: "https://github.com/sike-dev/kauvery_screener",
     title: "Kauvery Screener",
     description:
@@ -33,7 +33,7 @@ export const exploreWorlds = [
   },
   {
     id: "world-5",
-    imgUrl: "./planet-05.png",
+    imgUrl: "planet-05.png",
     projectUrl: "https://www.4hope.in",
     title: "4hope",
     description:
@@ -86,7 +86,7 @@ export const insights = [
 export const socials = [
   {
     name: "github",
-    url: "./github-white.svg",
+    url: "github-white.svg",
     link: "https://github.com/sike-dev",
   },
 ];
