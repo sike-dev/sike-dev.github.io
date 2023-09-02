@@ -164,3 +164,22 @@ export const inputVariants = {
   hidden: { opacity: 0, x: -20 },
   show: { opacity: 1, x: 0, transition: { duration: 0.5 } },
 };
+
+export const arrowAnimation = {
+  hidden: {
+    opacity: 0,
+    scale: 0.8,
+    y: 0,
+  },
+  show: {
+    opacity: 1,
+    scale: 1,
+    y: 20,
+    transition: {
+      duration: 1,
+      repeat: Infinity,
+      repeatType: "reverse",
+      ease: "easeOut",
+    },
+  },
+};
