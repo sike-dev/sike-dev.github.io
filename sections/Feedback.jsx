@@ -18,7 +18,7 @@ const Feedback = () => {
   } = useForm();
 
   const onSubmit = (formData) => {
-    window.location.href = `mailto:sikedev@gmail.com?subject=${formData.subject}&body==Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
+    window.location.href = `mailto:sikedev@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
 
   return (
