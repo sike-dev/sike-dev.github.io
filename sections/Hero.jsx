@@ -15,16 +15,16 @@ const Hero = () => (
       className={`${styles.innerWidth} 2xl:max-w-[1280px] w-full mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          SIKE
-        </motion.h1>
+        {/* <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+          WELCOME TO
+        </motion.h1> */}
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
         >
-          <div className="md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]"></div>
+          {/* <div className="md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]"></div> */}
           <h1 className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
-            EV
+            SIKEVERSE
           </h1>
         </motion.div>
       </div>
@@ -40,7 +40,7 @@ const Hero = () => (
           className="w-full sm:[h-500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
 
-        <a href="#explore">
+        <a>
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
             <img
               src="/stamp.png"
