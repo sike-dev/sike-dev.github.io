@@ -9,7 +9,7 @@ import Loading from "./loading"; // Assuming Loading component is in a file name
 
 const RootLayout = ({ children }) => {
   const [loading, setLoading] = useState(true);
-  const [screenSize, setScreenSize] = useState("mobile");
+  const [screenSize, setScreenSize] = useState("desktop");
 
   useEffect(() => {
     const handleResize = () => {
