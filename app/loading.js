@@ -1,8 +1,21 @@
-export default function Loading() {
+export default function Loading({ screenSize }) {
   return (
-    <div className="loading bg-black w-screen h-screen items-center justify-center">
-      <img src="./sike_1.png" alt="loading" />
-      <h1 className="text-white">loading ...</h1>
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="loading-container">
+        {screenSize === "mobile" ? (
+          <img
+            className="object-cover min-w-full min-h-full"
+            src="./sikem (1).gif"
+            alt="Loading"
+          />
+        ) : (
+          <img
+            className="object-cover min-w-full min-h-full"
+            src="./sikekeys.gif"
+            alt="Loading"
+          />
+        )}
+      </div>
     </div>
   );
 }
